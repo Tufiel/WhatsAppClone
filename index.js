@@ -168,8 +168,6 @@ appendContactsToMainDiv(contacts);
 
 const contactDivs = document.querySelectorAll(".contactNumber");
 let currentSelected = contactDivs[0].querySelector('.contactName > p:first-child').textContent;
-if( window.innerWidth > 1200)
-contactDivs[0].classList.add("selectContact");
 
 contactDivs.forEach((contactDiv, index) => {
 
