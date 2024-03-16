@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="./icons/whatsapp.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Background top div -->
+    <div id="topBackDiv"></div>
+
+    <!-- Background bottom div -->
+    <div id="bottomBackDiv"></div>
+
+    <!-- Main WhatsApp -->
+    <div id="main">
+      <div id="mainLeftDiv">
+
+        <div id="topChatShortcuts">
+			<div class="mobile">
+               <h2>WhatsApp</h2>
+			</div>
+          <div class="userDp desktop">
+            <img src="./icons/user1.jpeg" alt="User Dp" />
+          </div>
+
+          <div class="shortcuts">
+            <img
+              src="./icons/group1.png"
+              title="Communities"
+              alt="communities"
+            />
+            <img src="./icons/status1.png" title="Status" alt="status" />
+            <img src="./icons/channels.png" title="Channels" alt="channels" />
+            <img src="./icons/chat1.png" title="New chat" alt="new chat" />
+            <img src="./icons/dots.png" title="Menu" alt="menu" />
+          </div>
+        </div>
+
+        <div id="searchDiv">
+          <div id="search">
+            <img id="searchImage" src="./icons/loupe.png" alt="search" />
+            <input
+              type="search"
+              onfocus="search(this)"
+              onblur="unsearch(this)"
+              placeholder="Search or start new chat"
+              name="searchChat"
+              id=""
+            />
+          </div>
+          <img src="./icons/unread.png" alt="unread" />
+        </div>
+
+        
+      </div>
+
+      <div id="mainRightDiv" class="desktop">
+
+        <div id="chatTopContactInfo">
+			<div class="userDp displayFlexCol">
+			<img width="10" id="backToContacts" src="./icons/back1.png" alt="back">
+            <img id="chatDp" src="./icons/zahid.png" alt="User Dp" />
+            <div>
+              <p id="contactName">Zahid</p>
+              <p id="lastSeen" class="lightText">last seen today at 4:55 pm</p>
+            </div>
+          </div>
+
+          <div class="shortcuts">
+            <img src="./icons/video-camera.png" alt="video call" />
+            <img src="./icons/loupe.png" alt="search" />
+            <img src="./icons/dots.png" alt="options" />
+          </div>
+        </div>
+
+		<div class="allChats">
+		
+        <div class="actualChatBox zahid">
+            <p class="receiver chatMsg">
+              Hello ,How are you?
+              <span class="timeOfMsg">12:44 am</span>
+            </p>
+
+            <p class="sender chatMsg">
+              Fine what about you?
+              <span class="timeOfMsg"
+                >12:45 am <img src="./icons/blueTick.png" alt=""
+              /></span>
+            </p>
+
+            <p class="receiver chatMsg">
+              I am also fine
+              <span class="timeOfMsg">12:44 am</span>
+            </p>
+
+            <p class="sender chatMsg">
+              What is going on?
+              <span class="timeOfMsg"
+                >12:45 am <img src="./icons/blueTick.png" alt=""
+              /></span>
+            </p>
+
+            <p class="receiver chatMsg">
+              Nothing special
+              <span class="timeOfMsg">12:44 am</span>
+            </p>
+
+            <p class="receiver chatMsg">
+              Fasts 😁
+              <span class="timeOfMsg">12:44 am</span>
+            </p>
+
+            <p class="sender chatMsg">
+              oh!
+              <span class="timeOfMsg"
+                >12:45 am <img src="./icons/blueTick.png" alt=""
+              /></span>
+            </p>
+
+			<p class="receiver chatMsg">
+				<iframe width="400" height="200" src="https://www.youtube.com/embed/QM-tDK7lurA?si=VTVYm5kviXr9PcfZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				<span class="timeOfMsg">12:44 am</span>
+			  </p>
+
+			  <p class="receiver chatMsg">
+				Watch this out
+				<span class="timeOfMsg">12:44 am</span>
+			  </p>
+
+			  <p class="receiver chatMsg">
+				Clickbait
+				<span class="timeOfMsg">12:44 am</span>
+			  </p>
+
+			  <p class="receiver chatMsg">
+				Some debugging Ai perhaps
+				<span class="timeOfMsg">12:44 am</span>
+			  </p>
+
+			  
+
+             
+        </div>
+
+		<div class="actualChatBox suhaib">
+			<p class="receiver chatMsg">
+				Where are you?
+				<span class="timeOfMsg">08:17 pm</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				Working on my project
+				<span class="timeOfMsg"
+				  >10:15 pm <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+  
+			  <p class="receiver chatMsg">
+				Which project?
+				<span class="timeOfMsg">10:15 pm</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				WhatsApp by Html+CSS+Js
+				<span class="timeOfMsg"
+				  >10:15 am <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+			  <p class="receiver chatMsg">
+				Good Night
+				<span class="timeOfMsg">02:11 pm</span>
+			  </p>
+		</div>
+
+		<div class="actualChatBox abdul">
+			<p class="receiver chatMsg">
+				Kaha hai aap?
+				<span class="timeOfMsg">01:12 am</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				Ji room mai hu
+				<span class="timeOfMsg"
+				  >01:12 am <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+  
+			  <p class="receiver chatMsg">
+				kya kar rhe hai
+				<span class="timeOfMsg">01:13 am</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				bas kuch khaas ni
+				<span class="timeOfMsg"
+				  >01:14 am <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+			  <p class="receiver chatMsg">
+				ok
+				<span class="timeOfMsg">01:14 pm</span>
+			  </p>
+		</div>
+
+		<div class="actualChatBox umar">
+			<p class="receiver chatMsg">
+				kaha hai
+				<span class="timeOfMsg">01:20 am</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				hostel mai 
+				<span class="timeOfMsg"
+				  >01:21 am <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+  
+			  <p class="receiver chatMsg">
+				chal jalde mess jaana hai late ho gya
+				<span class="timeOfMsg">01:21 am</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				theek hai chalte hai
+				<span class="timeOfMsg"
+				  >01:21 am <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+			  <p class="receiver chatMsg">
+				haa
+				<span class="timeOfMsg">01:21 pm</span>
+			  </p>
+		</div>
+
+		<div class="actualChatBox asif">
+			<p class="receiver chatMsg">
+				mujhe subah utha dena call karke
+				<span class="timeOfMsg">02:09 pm</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				kyu
+				<span class="timeOfMsg"
+				  >02:10 pm <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+  
+			  <p class="receiver chatMsg">
+				mai uth ni paata hu
+				<span class="timeOfMsg">02:11 pm</span>
+			  </p>
+  
+			  <p class="sender chatMsg">
+				ok kr duga call
+				<span class="timeOfMsg"
+				  >02:11 pm <img src="./icons/blueTick.png" alt=""
+				/></span>
+			  </p>
+
+			  <p class="receiver chatMsg">
+				please yaad kar kai
+				<span class="timeOfMsg">02:11 pm</span>
+			  </p>
+		</div>
+
+	</div>
+
+        <div id="typingPanel">
+          <img src="./icons/emoji.png" alt="emoji" />
+          <img src="./icons/plus.png" alt="plus" />
+          <input
+            type="text"
+            onfocus="typeMsg(this)"
+            onblur="dontTypeMsg(this)"
+            name="typeMsg"
+            id="typeMsg"
+          />
+          <img src="./icons/mic.png" alt="mic" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/anggara" title="Anggara">
+        Anggara
+      </a>
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
