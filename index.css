@@ -660,6 +660,17 @@ img:hover
 	padding: 5px;
 }
 
+#typingPanel 
+{
+	gap: 10px;
+}
+
+iframe
+{
+	width: 200px;
+    height: 150px;
+}
+
 #backToContacts
 {
 margin-left: 5px;
